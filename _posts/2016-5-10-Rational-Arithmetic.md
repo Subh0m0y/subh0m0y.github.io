@@ -6,8 +6,6 @@ tags:
     - algorithm
 ---
 
-# Rational Arithmetic
-
 ## Introduction
 
 Floating-point arithmetic is the default way to provide support for representation of fractional numbers in most programming languages. However, they offer limited storage and fixed precision. Often, the accumulation of rounding-errors after a chain of operations makes them unsuitable for cases where accuracy matters, like in case of scientific computations.
@@ -16,4 +14,7 @@ One of the most common sources of rounding errors is *division*. Since we are al
 
 Most of us have grown accustomed to this short-coming. Some of us even use `BigDecimal` from the `java.math` package to use to obtain more digits of precision (and hopefully accuracy). But this doesn't really solve the problem. What can be done is to review middle-school level maths: learn how to use *fractions* or **Rational Numbers**.
 
+## Definition
+
+A *rational* number is one which can be expressed as a *ratio* of two integers, say $$p$$ and $$q$$, where $$q \neq 0$$.
 
